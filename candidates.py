@@ -49,7 +49,7 @@ class CandidateGeneration(object):
         avg_example_age = avg_embeddings(l2_norm_example_age)
 
 
-        # 임베딩 벡터들 연결
+        # 
         concat_inputs = tf.keras.layers.Concatenate(axis=1)([avg_features,
                                                              avg_watched,
                                                              avg_searched,
