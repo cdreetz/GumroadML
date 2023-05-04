@@ -13,7 +13,7 @@ or product pages that they view.  It is based off of Youtube's Recommendation sy
 
 
 ------------------------
-### Files:
+## Files:
 
 Candidates.py is the model that generates candidate recommendations, prior to ranking.  This step is necessary in the context of the Youtube 
 recommendation becauseof the extremely large number of possible videos to recommend on Youtube.  Similarly for Gumroad, instead of trying to 
