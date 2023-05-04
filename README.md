@@ -5,6 +5,8 @@ GumroadML is a Recommendation system that considers customer purchase history, s
 predict what product a user is most likely going to purchase next.  Allowing Gumroad to provide recommendations either on a users Discover page 
 or product pages that they view.  It is based off of Youtube's Recommendation system just altered to apply for Gumroad's case.
 
+1. Generate Candidates (candidates.py) out of total corpus 
+2. Rank the candidates (rank.py)
 
 
 
