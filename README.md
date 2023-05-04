@@ -22,3 +22,5 @@ purchase history, search history, and various persoanal data variables specific 
 
 Rank.py is the model that ranks the candidate products in order of most likely for a user to purchase next.  This uses a larger set of parameters 
 than the Candidates model but does so on a smaller set of products per user.
+
+Layers.py defines the masked embedding layer and the L2 norm layer to be used
