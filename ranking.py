@@ -58,7 +58,7 @@ class Ranking(object):
 		avg_timestamp = avg_embeddings(l2_norm_timestamp)
 
 
-		# 임베딩 벡터들 연결
+		# concat inputs
 		concat_inputs = tf.keras.layers.Concatenate(axis=1)([avg_features,
 		                                                     avg_liked,
 		                                                     avg_disliked,
